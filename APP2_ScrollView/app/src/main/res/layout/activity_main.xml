@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#176754"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/stalinist_one"
+        android:gravity="center"
+        android:text="@string/head"
+        android:textColor="#FF8C00"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/shead"
+        android:textColor="#FFDD00"
+        android:textSize="27sp"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/subhead"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/titlehead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="@string/thead"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold|italic" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:background="#E7FAF5">
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="all"
+                android:text="@string/text"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

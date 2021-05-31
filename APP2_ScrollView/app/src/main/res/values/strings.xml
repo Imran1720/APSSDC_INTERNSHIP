@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExampleScroll</string>
+    <string name="head">Android</string>
+    <string name="shead">Introduction to android</string>
+    <string name="thead">History of Android</string>
+    <string name="text">Sometimes it feels like weve been running Googles mobile OS on our Android devices forever. However, its actually been just over a decade since the first official Android phone hit store shelves. The key decision in Android history was Googles commitment to make Android an open-source operating system. That allowed it to become highly popular with third-party phone makers. Just a few years after the launch of Android 1.0, smartphones powered by the new OS were everywhere.<br/><br/>
+        13 years later, we are awaiting the upcoming launch of Android 12. The OS has become the most popular mobile operating system in the world, defeating its many competitors like Symbian, BlackBerry, Palm OS, webOS, and Windows Phone. Apples iOS is the only platform still standing as a serious competitor to Android, and that situation doesnt look like it will change anytime soon.<br/><br/>
+        The history of Android begins in October 2003 — well before the term smartphone was widely used and several years before Apple announced its first iPhone and iOS. Android Inc was founded in Palo Alto, California. Its four founders were Rich Miner, Nick Sears, Chris White, and Andy Rubin. At the time, Rubin was quoted as saying that Android Inc was going to develop smarter mobile devices that are more aware of its owners location and preferences.<br><br/>
+        This is the reference from https://developer.android.com/ <br/><br/>
+        My mail id is skimran1729@gmail.com<br/><br/>
+        My phone number is +917093033620
+        </br>
+    </string>
+</resources>
