@@ -1,6 +1,6 @@
 # AndroidInternship2k21
 The First Android Internship application HelloToast. 
-learned about following:
+learned about following:<br/>
   View
 	ViewGroup
 	Layouts
