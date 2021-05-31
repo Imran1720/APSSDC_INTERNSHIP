@@ -1,5 +1,6 @@
 # AndroidInternship2k21
-<b>The First Android Internship application HelloToast.</b> 
+<h2>APP1-HelloToast</h2>
+<b>The First Android Internship application HelloToast.</b> <br/>
 learned about following:<br/>
   View<br/>
 	ViewGroup<br/>
