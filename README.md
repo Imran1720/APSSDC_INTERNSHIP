@@ -14,3 +14,16 @@ Worked with <b>TextView</b> adding <i> &#8220;<b>size</b>&#8221;, &#8220;<b>styl
 and worked with <b>ScrollView</b>, <b>Nested layouts(<i>RelativeLayout->LinearLayout</i>)</b>.<br/>
 
 Finally implemented above things and made an application
+
+<h2>APP3-Intent</h2>
+ learned about intent and its type<br/>
+ types:<br>
+ <b>1.Implicit Intent  2. Explicit Intent</b><br/>
+ Created an app demonstrating  Intents<br>
+ This app contains 3 EditText and 3 Buttons<br>
+ each edit text take name, number and link respectively and buttons are next, dial and search<br>
+ 
+ Next button opens new screen and shows a message &#8220;welcome text(in EditText)&#8221;<br>
+ dial button opens phone dialer with the number in the corresponding EditText<br/>
+ search button opens the link within the corresponding EditText
+ 
