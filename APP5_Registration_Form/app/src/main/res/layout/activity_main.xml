@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:paddingLeft="6dp"
@@ -15,77 +21,111 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_weight="2"
         android:fontFamily="@font/cherry_cream_soda"
         android:text="REGISTRATION FORM"
         android:gravity="center"
+        android:layout_marginTop="2dp"
         android:textColor="#FFFFFF"
-        android:background="#FF0000"
-        android:textSize="25sp"
+        android:background="#FF0048"
+        android:textSize="30dp"
         android:textStyle="bold" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:layout_weight="2"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:paddingLeft="16dp"
         android:textColor="#000000"
-        android:hint="Enter Name"
+        android:textSize="25sp"
+        android:height="45dp"
+        android:background="@drawable/shape"
+        android:hint="  Enter Name"
         android:id="@+id/name"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_weight="2"
-        android:textColor="#000000"
-        android:id="@+id/mail"
-        android:inputType="textEmailAddress"
-        android:hint="Enter Email"/>
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginTop="15dp"
-        android:layout_weight="2"
+        android:drawableLeft="@drawable/ic_email"
+        android:paddingLeft="16dp"
         android:textColor="#000000"
-        android:id="@+id/number"
-        android:hint="Enter Number"
-        android:inputType="phone"/>
+        android:textSize="25sp"
+        android:height="45dp"
+        android:background="@drawable/shape"
+        android:id="@+id/mail"
+        android:inputType="textEmailAddress"
+        android:hint="  Enter Email"/>
+
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/password"
-        android:layout_weight="2"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shape"
+        android:height="45dp"
+        android:paddingLeft="16dp"
+
         android:textColor="#000000"
-        android:hint="Enter Password"
-        android:layout_marginTop="15dp"/>
+        android:id="@+id/number"
+        android:drawableLeft="@drawable/ic_phone"
+        android:textSize="25sp"
+        android:hint="  Enter Number"
+        android:inputType="phone"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:passwordToggleEnabled="true"
+        app:boxStrokeWidth="0dp"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:startIconTint="#FF0048"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape"
+            android:padding="6dp"
+            android:drawablePadding="6dp"
+            android:id="@+id/pass"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/sp"
         android:entries="@array/branch"
+        android:background="@drawable/shape"
+        android:minHeight="45dp"
         android:textAlignment="center"
+        android:textSize="25sp"
         android:layout_marginTop="15dp"/>
 
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="2"
+        android:id="@+id/rg"
+
         android:orientation="horizontal">
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male"
+            android:buttonTint="#FF0048"
             android:id="@+id/male"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="25sp"
             />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="25sp"
+            android:buttonTint="#FF0048"
             android:id="@+id/female"
             android:layout_marginLeft="30dp"
             />
@@ -97,24 +137,27 @@
         android:text="Telugu"
         android:id="@+id/tel"
         android:textColor="#000000"
+        android:buttonTint="#FF0048"
         android:layout_weight="2"
-        android:textSize="20sp"/>
+        android:textSize="25sp"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hindi"
         android:textColor="#000000"
+        android:buttonTint="#FF0048"
         android:id="@+id/hin"
         android:layout_weight="2"
-        android:textSize="20sp"/>
+        android:textSize="25sp"/>
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="English"
         android:id="@+id/eng"
         android:textColor="#000000"
+        android:buttonTint="#FF0048"
         android:layout_weight="2"
-        android:textSize="20sp"/>
+        android:textSize="25sp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -123,19 +166,25 @@
         android:layout_weight="2"
         android:id="@+id/dob"
         android:gravity="center"
+        android:onClick="dob"
         android:layout_marginTop="15dp"
         android:textColor="#000000"
-        android:textSize="20sp"/>
+        android:textSize="25sp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_weight="1"
-        android:background="#FFFFFF"
+        android:background="@drawable/shape"
+        android:width="200dp"
         android:text="submit"
+        android:onClick="save"
+        android:textSize="25sp"
         app:backgroundTint="#FF0048" />
 
 
 
 </LinearLayout>
+
+</ScrollView>
