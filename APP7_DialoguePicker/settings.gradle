@@ -1,0 +1,2 @@
+rootProject.name = "DialoguePicker"
+include ':app'
