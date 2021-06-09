@@ -1,0 +1,8 @@
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.csprojResolveAssemblyReference.cache
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.exe.config
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.exe
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.pdb
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\bin\Debug\HelloService.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\bin\Debug\HelloService.pdb
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.exe
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.pdb

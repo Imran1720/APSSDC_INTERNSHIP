@@ -1,0 +1,14 @@
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\HelloService.dll.config
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\HelloService.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\HelloService.pdb
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Web.Http.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Web.Http.xml
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\obj\Debug\HelloService.csprojResolveAssemblyReference.cache
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\obj\Debug\HelloService.dll
+C:\Users\IMRAN\Desktop\MT\APPLICATIONS\WCF1\HelloService\HelloService\obj\Debug\HelloService.pdb

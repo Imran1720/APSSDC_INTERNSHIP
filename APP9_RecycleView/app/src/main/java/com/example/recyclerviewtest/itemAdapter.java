@@ -48,13 +48,7 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.MyViewHolder> 
         holder.iv.setImageResource(myImages[position]);
         holder.tv1.setText(myNames[position]);
         holder.tv2.setText(myPrices[position]);
-//        holder.button.setOnClickListener(new ElegantNumberButton.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                String num = holder.button.getNumber();
-//                Toast.makeText(ct, ""+num, Toast.LENGTH_SHORT).show();
-//            }
-//        });
+
         holder.button.setOnValueChangeListener(new ElegantNumberButton.OnValueChangeListener() {
             @Override
             public void onValueChange(ElegantNumberButton view, int oldValue, int newValue) {
