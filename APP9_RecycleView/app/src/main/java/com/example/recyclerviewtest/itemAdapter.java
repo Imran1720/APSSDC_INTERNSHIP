@@ -14,6 +14,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 
+import org.jetbrains.annotations.NotNull;
+
 public class itemAdapter extends RecyclerView.Adapter<itemAdapter.MyViewHolder> {
 
     Context ct;
@@ -44,7 +46,7 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.MyViewHolder> 
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull itemAdapter.MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull @NotNull itemAdapter.MyViewHolder holder, int position) {
         holder.iv.setImageResource(myImages[position]);
         holder.tv1.setText(myNames[position]);
         holder.tv2.setText(myPrices[position]);
