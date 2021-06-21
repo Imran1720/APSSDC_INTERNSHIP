@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MYINFO</string>
+    <string name="head">ABOUT ME</string>
+    <string name="name">SHAIK IMRAN ALI</string>
+    <string name="dis">
+                        <b>Name</b>			                :  Mr. Shaik Imran Ali\n
+                        <b>Father’s Name</b>                           :  Mr. Shaik Masum Ali\n
+                        <b>Date of Birth</b>                              :  01-07-2000\n
+                        <b>Gender</b>                                       :   Male\n
+                        <b>Languages Known</b>                    :  English, Telugu and Hindi\n
+                        <b>Address for Communication</b>   :  DNO: 23-4-7/1, Beside Noorani Masjid, Ponnur-522101,     Guntur district, Andhra  Pradesh, India.\n
+                        <b>Hobbies</b>                                      :  Listening to music, Watching movies, Art &amp; Craft\n
+        <h2><b>\nDescription: \n</b></h2>
+        I am Shaik Imran Ali. I am a hardworking Pursuing Engineer specialised in Computer Science &amp; Engineering with present overall CGPA of 8.6. Along with my degree I completed machine learning onramp on mathwork, Step into Robotic Process Automation and Build a Face Recognition Application Using Python in Guvi and various technology I learnt will help me to develop my final year project works. My strength is I can interact with new people, smart working, self motivated and I have a positive attitude towards my life. And I am an Enthusiastic and easy going person. My weakness I feel uncomfortable until I finish my work. I easily trust people. Now coming to my family there are four members including me. My father, My mother, My Elder Brother and me. My father is a Ex-army man and My mother is a home maker. My hobbies are reading books doing sports and listening music. My short time goal is to get a job in a company and my long time goal is get good position game development industry.\n
+        \nEmail: skimran1720@gmail.com\n
+        phone no.: +917093033620\n
+        GitHub: https://github.com/Imran1720\n
+</string>
+</resources>
