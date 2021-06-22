@@ -32,6 +32,15 @@
         android:hint="Enter password"
         android:inputType="textPassword"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="forgot password?"
+        android:gravity="end"
+        android:textStyle="bold|italic"
+        android:onClick="reset"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -40,6 +49,16 @@
         android:text="login"
         android:onClick="login"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not yet Registered?"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:onClick="register"/>
 
 
 </LinearLayout>
