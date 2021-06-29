@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "876096762412",
+    "project_id": "exphnauth",
+    "storage_bucket": "exphnauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876096762412:android:02e9afd800d0b7eb75d789",
+        "android_client_info": {
+          "package_name": "com.example.epa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876096762412-49dgvc9lvprbrje45dhg6itns0c9tsu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.epa",
+            "certificate_hash": "622b9d97ab7d862cdd4e6e85573841dca404e6b8"
+          }
+        },
+        {
+          "client_id": "876096762412-g40sb2slmfu2n9ggnnt544rbut8ba95m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFi1PVpixBMinRGPNqJw4CSITKQIoKDd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876096762412-g40sb2slmfu2n9ggnnt544rbut8ba95m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

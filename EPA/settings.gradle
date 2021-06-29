@@ -1,0 +1,2 @@
+rootProject.name = "EPA"
+include ':app'
