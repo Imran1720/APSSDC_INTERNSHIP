@@ -34,18 +34,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.HoldView> {
 
     @Override
     public void onBindViewHolder(@NonNull  MyAdapter.HoldView holder, int position) {
-        Glide.with(ct).load(list.get(position).getImg()).placeholder(R.drawable.ic_launcher_background).into(holder.iv);
+        Glide.with(ct).load(list.get(position).getUrl()).placeholder(R.drawable.ic_launcher_background).into(holder.iv);
         holder.name.setText(list.get(position).getName());
         holder.mail.setText(list.get(position).getMail());
-        holder.number.setText(list.get(position).getNumber());
-        holder.del.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DatabaseReference reference = FirebaseDatabase.getInstance().getReference("UserData");
-                reference.child(list.get(position).getNumber()).removeValue();
-                Toast.makeText(ct, "Data Deleted", Toast.LENGTH_SHORT).show();
-            }
-        });
+        holder.number.setText(list.get(position).getPhone());
+        holder.actype.setText(list.get(position).getActype());
+        holder.state.setText(list.get(position).getState());
+        holder.district.setText(list.get(position).getDistrict());
+        holder.village.setText(list.get(position).getVillage());
+        holder.house.setText(list.get(position).getHno());
+        holder.colony.setText(list.get(position).getColony());
+        holder.lmark.setText(list.get(position).getLmarl());
+
 
     }
 
@@ -55,16 +55,22 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.HoldView> {
     }
 
     public class HoldView extends RecyclerView.ViewHolder {
-        ImageButton edit,del;
-        TextView name,mail,number;
+
+        TextView name,mail,number,actype,state,district,village,house,colony,lmark;
         ImageView iv;
         public HoldView(@NonNull View itemView) {
             super(itemView);
-            edit = itemView.findViewById(R.id.edit);
-            del = itemView.findViewById(R.id.del);
+
             name = itemView.findViewById(R.id.name);
             mail = itemView.findViewById(R.id.mail);
             number = itemView.findViewById(R.id.number);
+            actype = itemView.findViewById(R.id.actype);
+            state = itemView.findViewById(R.id.state);
+            district = itemView.findViewById(R.id.district);
+            village = itemView.findViewById(R.id.village);
+            house = itemView.findViewById(R.id.hno);
+            colony = itemView.findViewById(R.id.colony);
+            lmark = itemView.findViewById(R.id.lmark);
             iv = itemView.findViewById(R.id.iv);
         }
     }

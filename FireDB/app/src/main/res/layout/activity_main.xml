@@ -9,7 +9,10 @@
     android:padding="15dp"
     android:gravity="center"
     tools:context=".MainActivity">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,6 +48,54 @@
         android:hint="Enter Number"
         android:inputType="phone"
         android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actype"
+        android:hint="Enter actype"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:hint="Enter state"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/district"
+        android:hint="Enter district"
+        android:inputType="phone"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/village"
+        android:hint="Enter village"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hno"
+        android:hint="Enter house number"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colony"
+        android:hint="Enter colony"
+        android:inputType="phone"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lmark"
+        android:hint="Enter landmark"
+        android:inputType="phone"
+        android:layout_marginTop="15dp"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,6 +109,7 @@
         android:layout_marginTop="15dp"
         android:onClick="fetch"/>
 
+   </ScrollView>
 
 </LinearLayout>
 </layout>
